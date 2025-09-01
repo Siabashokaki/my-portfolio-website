@@ -34,7 +34,7 @@ const Navbar = () => {
             <li> <a className='font-Ovo' href='#contact'>Contact me</a> </li>
         </ul>
 
-        <div className='flex item-center gap-4'>
+        <div className='flex items-center gap-4'>
             <button>
                 <Image src={assets.moon_icon} alt='' className='w-6'/>
             </button>
