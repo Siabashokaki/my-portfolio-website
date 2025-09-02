@@ -1,9 +1,7 @@
-# TODO: Fix Hover Shadow Issue Later
+# TODO: Fix Navbar Background Issues
 
-- Investigate why the custom Tailwind CSS shadow class `hover:shadow-black` is not applying correctly.
-- Consider renaming `tailwind.config.js` to `tailwind.config.mjs` for ES module compatibility.
-- Explore alternative approaches such as inline styles or CSS modules for hover shadow effect.
-- Ensure the development server is restarted after Tailwind config changes.
-- Test thoroughly on the About section hover shadow effect.
-- Confirm no conflicts or overrides in CSS affecting the shadow.
-- Update the About.jsx component with a working hover shadow solution.
+- [ ] Fix typo in background image div className: change 'translete-y-[-80%]' to 'translate-y-[-80%]' (or adjust/remove if causing invisibility)
+- [ ] Add initial background to nav element (e.g., bg-white)
+- [ ] Adjust width of background div to w-full for full coverage
+- [ ] Test the changes by running the app
+- [ ] Verify navbar background is working correctly
