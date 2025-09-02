@@ -23,7 +23,7 @@ const Navbar = () => {
 
         {/* -- ---- Logo ---- -- */}
         <a href="#top">
-            <Image src={assets.logo} className='w-28 alt="logo" cursor-pointer mr-14' />
+            <Image src={assets.logo} className='w-28 cursor-pointer mr-14' alt='logo'/>
         </a>
 
         <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
