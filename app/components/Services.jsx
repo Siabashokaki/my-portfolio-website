@@ -15,7 +15,7 @@ const Services = () => {
         Showcase of innovative frontend web and app development projects by a skilled 
         developer based in the Philippines, featuring creative solutions and modern design.</p>
 
-        <div className='grid grid-cols-4 gap-6 my-10'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 my-10'>
             {serviceData.map(({icon, title, description, link}, index)=>(
                 <div key={index}
                 className='border border-gray-400 rounded-lg px-8 py-12  hover:shadow-black hover:shadow-lg
