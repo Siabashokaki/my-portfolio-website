@@ -21,7 +21,7 @@ export default {
         'black' : '4px 4px 0 #fff'
       },
       gridTemplateColumns: {
-        'auto' : 'repeat(auto-fit, minmax(200px, 1fr))'
+        'auto' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4'
       }
     },
   },
